@@ -116,7 +116,7 @@ def combine(msg_set):
         ans = ADD(ans, msg_set[i+1])
     return ans
 
-if __name__=="--main__":
+if __name__=="__main__":
     m1 = "wwl"
     m2 = "202000460010"
 
