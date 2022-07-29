@@ -120,9 +120,9 @@ if __name__=="__main__":
     m1 = "wwl"
     m2 = "202000460010"
 
-    print('hash(m1):\n', single(m1))
-    print('hash(m2):\n', single(m2))
-    print('hash(m1||m2):\n', combine([m1, m2]))
-    print('hash(m2||m1):\n', combine([m2, m1]))
-    print('hash(m1) + hash(m2):\n', ADD(single(m1), m2))
-    print('hash(m1||m2) - hash(m2):\n', remove(combine([m1, m2]), m2))
+    print('single(m1)', single(m1))
+    print('single:\n', single(m2))
+    print('combine([m1, m2]\n', combine([m1, m2]))
+    print('combine([m2, m1]\n', combine([m2, m1]))
+    print('ADD(single(m1), m2))\n', ADD(single(m1), m2))
+    print('remove(combine([m1, m2]), m2\n', remove(combine([m1, m2]), m2))
